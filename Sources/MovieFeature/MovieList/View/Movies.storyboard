@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -12,7 +12,7 @@
         <!--Movie List View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="MovieListViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="MovieListViewController" customModule="MovieFeature" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MovieListViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="MovieListViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,13 +23,13 @@
                                     <constraint firstAttribute="height" constant="44" id="2ho-x3-fdg"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="ld4-1L-VYR" kind="embed" id="7wL-TY-Mrp"/>
+                                    <segue destination="ld4-1L-VYR" kind="embed" identifier="ActionsViewController" id="7wL-TY-Mrp"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jcn-DA-Vtw">
                                 <rect key="frame" x="0.0" y="124" width="375" height="543"/>
                                 <connections>
-                                    <segue destination="UI1-TR-Kat" kind="embed" id="Ie2-JR-R5m"/>
+                                    <segue destination="UI1-TR-Kat" kind="embed" identifier="MoviesViewController" id="Ie2-JR-R5m"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="USZ-KG-gYN">
@@ -38,7 +38,7 @@
                                     <constraint firstAttribute="height" constant="80" id="6nz-YQ-QJQ"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="Ixr-BQ-afd" kind="embed" id="LFR-RP-kqQ"/>
+                                    <segue destination="Ixr-BQ-afd" kind="embed" identifier="MenuTagsViewController" id="LFR-RP-kqQ"/>
                                 </connections>
                             </containerView>
                         </subviews>
@@ -65,7 +65,7 @@
         <!--Menu Tags View Controller-->
         <scene sceneID="eLC-BN-pJp">
             <objects>
-                <viewController id="Ixr-BQ-afd" customClass="MenuTagsViewController" customModule="MovieFeature" sceneMemberID="viewController">
+                <viewController id="Ixr-BQ-afd" customClass="MenuTagsViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LQ9-pO-oUC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -88,7 +88,7 @@
         <!--Actions View Controller-->
         <scene sceneID="JFX-Bd-3DO">
             <objects>
-                <viewController id="ld4-1L-VYR" customClass="ActionsViewController" customModule="MovieFeature" sceneMemberID="viewController">
+                <viewController id="ld4-1L-VYR" customClass="ActionsViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tjg-hs-fHV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -111,7 +111,7 @@
         <!--Movies View Controller-->
         <scene sceneID="sij-mF-Bhi">
             <objects>
-                <viewController id="UI1-TR-Kat" customClass="MoviesViewController" customModule="MovieFeature" sceneMemberID="viewController">
+                <viewController id="UI1-TR-Kat" customClass="MoviesViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="usQ-xz-Qrr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="543"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
