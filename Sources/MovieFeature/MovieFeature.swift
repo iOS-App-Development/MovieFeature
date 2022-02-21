@@ -2,6 +2,12 @@
 import UIKit
 #endif
 
+protocol MovieFeatureAPI {
+    func load()
+    func unload()
+}
+
+
 public struct MovieFeature {
     public private(set) var text = "Hello, World!"
     
