@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 //        }
         if let windows = self.window {
             let navigationController:UINavigationController = UINavigationController.init()
-            let moviesModule:MovieFeatureAPI = MovieFeature.init(navigatoinController: navigationController)
+            let moviesModule:MovieFeature = MovieFeature.init(navigatoinController: navigationController)
             let movies:UIViewController = moviesModule.load()
             windows.rootViewController = navigationController
         }
