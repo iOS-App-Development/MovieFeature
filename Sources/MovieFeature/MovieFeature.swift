@@ -13,7 +13,7 @@ open class MovieFeature {
 
 }
 
-extension MovieFeature:MovieFeatureAPI
+extension MovieFeature:ServiceAPI
 {
     public func load() {
         let storyboarded:UIStoryboard = UIStoryboard.init(name: "Movies", bundle: .module)

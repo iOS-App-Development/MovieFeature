@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 
         let navigationController:UINavigationController = UINavigationController.init()
-        let moviesModule:MovieFeature = MovieFeature.init(navigatoinController: navigationController)
+        let moviesModule:MovieFeatureAPI = MovieFeature.init(navigatoinController: navigationController)
         moviesModule.load()
         
         let test:MoviesPresnterAPI = MoviesPresnter.init()
