@@ -8,7 +8,7 @@ protocol MovieFeatureAPI {
 }
 
 
-public struct MovieFeature {
+public class MovieFeature {
     public private(set) var text = "Hello, World!"
     
     private let navigationController:UINavigationController
