@@ -1,2 +1,3 @@
 # MovieFeature
-MovieFeature Module
+
+A description of this package.

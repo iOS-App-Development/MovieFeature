@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "APIClient",
+        "repositoryURL": "https://github.com/iOS-App-Development/APIClient.git",
+        "state": {
+          "branch": "master",
+          "revision": "aa08313623f0a6c15489ec396163f112d3f72d3b",
+          "version": null
+        }
+      },
+      {
+        "package": "SharedModule",
+        "repositoryURL": "https://github.com/iOS-App-Development/SharedModule.git",
+        "state": {
+          "branch": "master",
+          "revision": "4ee7a271da80d4a7591d916028efb7fb5e4f5420",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
