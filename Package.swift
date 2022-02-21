@@ -1,11 +1,11 @@
 // swift-tools-version:5.5
-// The swift-tools-version declares the minimum version of Swift required to build this package.
+// The swift-tools-version declares the minimum version of Swift required to build this package. //, .macOS(.v10_13), .tvOS(.v10), .watchOS(.v2)
 
 import PackageDescription
 
 let package = Package(
     name: "MovieFeature",
-    platforms: [.iOS(.v10), .macOS(.v10_13), .tvOS(.v10), .watchOS(.v2)],
+    platforms: [.iOS(.v10)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
