@@ -12,7 +12,7 @@
         <!--Movie List View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="MovieListViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="MovieListViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MovieListViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="MovieListViewController" customModule="MovieFeature" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,7 +65,7 @@
         <!--Menu Tags View Controller-->
         <scene sceneID="eLC-BN-pJp">
             <objects>
-                <viewController id="Ixr-BQ-afd" customClass="MenuTagsViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MenuTagsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ixr-BQ-afd" customClass="MenuTagsViewController" customModule="MovieFeature" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LQ9-pO-oUC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -88,7 +88,7 @@
         <!--Actions View Controller-->
         <scene sceneID="JFX-Bd-3DO">
             <objects>
-                <viewController id="ld4-1L-VYR" customClass="ActionsViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ActionsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ld4-1L-VYR" customClass="ActionsViewController" customModule="MovieFeature" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tjg-hs-fHV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -111,7 +111,7 @@
         <!--Movies View Controller-->
         <scene sceneID="sij-mF-Bhi">
             <objects>
-                <viewController id="UI1-TR-Kat" customClass="MoviesViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MoviesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UI1-TR-Kat" customClass="MoviesViewController" customModule="MovieFeature" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="usQ-xz-Qrr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="543"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
