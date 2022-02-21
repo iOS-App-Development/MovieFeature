@@ -8,6 +8,6 @@
 import UIKit
 
 protocol MovieFeatureAPI {
-    func load()->UIViewController
+    func load()
     func unload()
 }

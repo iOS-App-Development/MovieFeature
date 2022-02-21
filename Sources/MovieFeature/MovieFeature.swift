@@ -10,11 +10,10 @@ open class MovieFeature:MovieFeatureAPI {
     public init(navigatoinController:UINavigationController) {
         self.navigationController = navigatoinController
     }
-    open func load()->UIViewController {
+    open func load() {
         let storyboarded:UIStoryboard = UIStoryboard.init(name: "Movies", bundle: .module)
         let viewController:UIViewController = storyboarded.instantiateViewController(withIdentifier: "MovieListViewController")
-        return viewController
-//        self.navigationController.show(viewController, sender: nil)
+        self.navigationController.pushViewController(viewController, animated: false)
     }
     
     open func unload() {
