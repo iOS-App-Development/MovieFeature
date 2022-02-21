@@ -21,6 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let navigationController:UINavigationController = UINavigationController.init()
         let moviesModule:MovieFeature = MovieFeature.init(navigatoinController: navigationController)
         moviesModule.load()
+        
+        let test:MoviesPresnterAPI = MoviesPresnter.init()
+        test.load()
         // create a basic UIWindow and activate it
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = navigationController

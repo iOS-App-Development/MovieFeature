@@ -6,7 +6,7 @@
 //
 
 import Foundation
-protocol MoviesPresnterAPI {
+public protocol MoviesPresnterAPI {
     func load()
     func unload()
 }

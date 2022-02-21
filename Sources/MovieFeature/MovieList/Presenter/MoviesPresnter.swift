@@ -9,11 +9,11 @@ import Foundation
 
 open class MoviesPresnter : MoviesPresnterAPI
 {
-    func load() {
+    public func load() {
         print("load")
     }
     
-    func unload() {
+    public func unload() {
         print("unload")
     }
 }
