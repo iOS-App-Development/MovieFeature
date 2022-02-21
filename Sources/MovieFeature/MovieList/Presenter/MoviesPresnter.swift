@@ -9,6 +9,8 @@ import Foundation
 
 open class MoviesPresnter : MoviesPresnterAPI
 {
+    public init(){}
+    
     public func load() {
         print("load")
     }

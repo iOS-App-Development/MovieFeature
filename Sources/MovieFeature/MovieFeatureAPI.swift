@@ -7,7 +7,7 @@
 @_exported import SharedModule
 import UIKit
 
-protocol MovieFeatureAPI {
+public protocol MovieFeatureAPI {
     func load()
     func unload()
 }
