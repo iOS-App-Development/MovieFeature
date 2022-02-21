@@ -52,6 +52,7 @@
 		7F28A65627C42176007DBAFA /* MovieFeatureApp-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MovieFeatureApp-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F28A65A27C42176007DBAFA /* MovieFeatureApp_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFeatureApp_iOSUITests.swift; sourceTree = "<group>"; };
 		7F28A65C27C42176007DBAFA /* MovieFeatureApp_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFeatureApp_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7F28A66F27C43AD6007DBAFA /* MovieFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MovieFeature; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 		7F28A62A27C42174007DBAFA = {
 			isa = PBXGroup;
 			children = (
+				7F28A66E27C43AD6007DBAFA /* Packages */,
 				7F28A63527C42174007DBAFA /* MovieFeatureApp-iOS */,
 				7F28A64F27C42176007DBAFA /* MovieFeatureApp-iOSTests */,
 				7F28A65927C42176007DBAFA /* MovieFeatureApp-iOSUITests */,
@@ -130,6 +132,14 @@
 				7F28A65C27C42176007DBAFA /* MovieFeatureApp_iOSUITestsLaunchTests.swift */,
 			);
 			path = "MovieFeatureApp-iOSUITests";
+			sourceTree = "<group>";
+		};
+		7F28A66E27C43AD6007DBAFA /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				7F28A66F27C43AD6007DBAFA /* MovieFeature */,
+			);
+			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
