@@ -1,12 +1,8 @@
+
+@_exported import SharedModule
 #if !os(macOS)
 import UIKit
 #endif
-
-protocol MovieFeatureAPI {
-    func load()
-    func unload()
-}
-
 
 open class MovieFeature:MovieFeatureAPI {
     private let navigationController:UINavigationController
