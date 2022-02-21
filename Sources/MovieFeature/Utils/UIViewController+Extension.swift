@@ -35,7 +35,7 @@ extension UIViewController {
     
     func getChild(_ childViewController:UIViewController.Type) -> UIViewController? {
         for item:UIViewController in self.children {
-            if childViewController === item.self {
+            if type(of: item) === childViewController {
                 return item
             }
         }

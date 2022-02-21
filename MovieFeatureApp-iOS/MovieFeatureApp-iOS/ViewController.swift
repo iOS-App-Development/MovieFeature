@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MovieFeature
 
 class ViewController: UIViewController {
 
@@ -15,5 +16,10 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func actionOpenNewScreen()
+    {
+        let moviesModule:MovieFeature = MovieFeature.init(navigatoinController: self.navigationController!)
+        moviesModule.load()
+    }
 }
 
