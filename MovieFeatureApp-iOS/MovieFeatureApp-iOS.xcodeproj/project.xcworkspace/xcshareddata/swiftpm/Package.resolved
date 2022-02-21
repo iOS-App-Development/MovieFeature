@@ -15,7 +15,7 @@
         "repositoryURL": "https://github.com/iOS-App-Development/MovieFeature.git",
         "state": {
           "branch": "master",
-          "revision": "37eddad13eddb44b7c3d333e2773faa9b218ce18",
+          "revision": "dfb12419157c7d987a7a5b76230cfaaccb8a2d00",
           "version": null
         }
       },
@@ -24,7 +24,7 @@
         "repositoryURL": "https://github.com/iOS-App-Development/SharedModule.git",
         "state": {
           "branch": "master",
-          "revision": "4ee7a271da80d4a7591d916028efb7fb5e4f5420",
+          "revision": "505dca72ad916486e3e451794460fc02c93e55f1",
           "version": null
         }
       }

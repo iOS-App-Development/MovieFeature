@@ -19,11 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 
         let navigationController:UINavigationController = UINavigationController.init()
-        let moviesModule:MovieFeatureAPI = MovieFeature.init(navigatoinController: navigationController)
+        let moviesModule:ServiceAPI = MovieFeature.init(navigatoinController: navigationController)
         moviesModule.load()
         
-        let test:MoviesPresnterAPI = MoviesPresnter.init()
-        test.load()
         // create a basic UIWindow and activate it
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = navigationController
