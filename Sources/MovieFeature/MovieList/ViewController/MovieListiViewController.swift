@@ -8,7 +8,7 @@
 import UIKit
 #endif
 
-class MovieListiViewController: UIViewController {
+class MovieListViewController: UIViewController {
     
     var menuTagsViewController:UIViewController? = nil
     var actionsViewController:UIViewController? = nil
