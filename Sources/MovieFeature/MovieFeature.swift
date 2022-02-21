@@ -8,7 +8,7 @@ protocol MovieFeatureAPI {
 }
 
 
-public class MovieFeature {
+public class MovieFeature:MovieFeatureAPI {
     public private(set) var text = "Hello, World!"
     
     private let navigationController:UINavigationController
@@ -16,10 +16,6 @@ public class MovieFeature {
     public init(navigatoinController:UINavigationController) {
         self.navigationController = navigatoinController
     }
-}
-
-extension MovieFeature:MovieFeatureAPI
-{
     func load() {
         let storyboarded:UIStoryboard = UIStoryboard.init(name: "Movies", bundle: .module)
         let viewController:UIViewController = storyboarded.instantiateViewController(withIdentifier: "MovieListViewController")
@@ -30,6 +26,19 @@ extension MovieFeature:MovieFeatureAPI
         self.navigationController.popViewController(animated: true)
     }
 }
+//
+//extension MovieFeature:MovieFeatureAPI
+//{
+//    func load() {
+//        let storyboarded:UIStoryboard = UIStoryboard.init(name: "Movies", bundle: .module)
+//        let viewController:UIViewController = storyboarded.instantiateViewController(withIdentifier: "MovieListViewController")
+//        self.navigationController.show(viewController, sender: nil)
+//    }
+//    
+//    func unload() {
+//        self.navigationController.popViewController(animated: true)
+//    }
+//}
 
 /// A type that contributes to the object graph.
 public struct Module {
